@@ -10,7 +10,7 @@ public class ArrayOperations {
 		{    
 			for(int j = 0; j < columnSize; j++)
 			{    
-				transposeArray[i][j] = transposeArray[j][i];  
+				transposeArray[i][j] = arg[j][i];  
 			}    
 		}  
 		return transposeArray;
